@@ -145,7 +145,7 @@ function CustomModal() {
         </dialog>,
         document.getElementById('modal')
     );
-})
+}
 
 export default CustomModal;
 ```
