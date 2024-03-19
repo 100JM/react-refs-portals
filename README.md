@@ -67,7 +67,7 @@ export default function Player() {
 useRef 훅을 import해서 참조 값을 생성한다.   
 생성된 참조 값을 변수나 상수에 담고 이를 ref 속성을 통해 JSX요소들과 연결할 수 있다.   
 current 속성이 연결된 JSX의 참조 값을 가지고있으며 위와 같이 input의 value 속성에 접근이 가능하다.   
-결과를 확인해보면 **useRef로 관리하는 값은 변해도 더링되지 않음**을  수 있다.   
+결과를 확인해보면 **useRef로 관리하는 값은 변해도 렌더링되지 않음**을  수 있다.   
 ![2024-03-19 13;48;51](https://github.com/100JM/react-refs-portals/assets/85985604/5c88f352-4af3-4bed-9fb6-7db0a1e165b4)   
 
 ### State vs Ref
